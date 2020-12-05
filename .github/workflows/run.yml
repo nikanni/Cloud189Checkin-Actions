@@ -11,7 +11,7 @@ on:
     - cron: 0 2,14 * * *
 
 jobs:
-  Cloud189Checkin:
+  云:
     runs-on: ubuntu-latest
 
     steps:
