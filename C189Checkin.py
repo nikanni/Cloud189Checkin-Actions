@@ -17,6 +17,9 @@ if(username == "" or password == ""):
     password = input("密码：")
 
 def main():
+    
+    print(f"山摆快,你懂我意思吗?")
+    
     msg = login(username, password)
     if(msg == "error"):
         return None
